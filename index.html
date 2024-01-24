@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="resetCss.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <title>ToDo</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="todo-container">
+        <h2 class="todo-headline">HIGH</h2>
+        <form class="form input-form" id="highForm">
+          <input type="text" placeholder="Добавить задачу" id="input-high" class="input" autocomplete="off" required />
+          <button type="submit" class="form-btn" id="add-btn">
+            <img src="./assets/add-icon.svg" alt="" class="btn-icon" />
+          </button>
+        </form>
+        <div class="high-task-container" id="high-task-container"></div>
+        <h2 class="todo-headline">LOW</h2>
+        <form class="form input-form" id="lowForm">
+          <input type="text" placeholder="Добавить задачу" id="input-low" class="input" autocomplete="off" required />
+          <button type="submit" class="form-btn" id="add-btn">
+            <img src="./assets/add-icon.svg" alt="" class="add-btn-icon" />
+          </button>
+        </form>
+        <div class="low-task-container" id="low-task-container"></div>
+      </div>
+    </div>
+    <script src="/main.js" type="module"></script>
+  </body>
+</html>

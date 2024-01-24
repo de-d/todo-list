@@ -1,0 +1,92 @@
+.wrapper {
+    display: flex;
+    max-width: 476px;
+    min-height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: #b1b1b1 1px solid;
+    border-radius: 7px;
+    box-shadow: #333333 0px 0px 10px;
+}
+.todo-container {
+    padding: 0 8px;
+}
+
+.form {
+    display: flex;
+    width: 460px;
+    height: 45px;
+    flex-direction: row;
+    padding: 12px;
+    margin: 0 0 8px 0;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid #989898;
+}
+.form:focus-within {
+    outline: 1px solid #989898;
+}
+
+.input {
+    flex-grow: 2;
+    border: none;
+}
+
+.form-btn {
+    background: none;
+}
+.close-btn {
+    transform: rotate(-45deg);
+}
+
+.todo-headline {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 210px;
+}
+
+.task-form {
+    position: relative;
+    height: 100%;
+    display: flex;
+    padding: 12px;
+    margin: 0 0 8px 0;
+}
+.task-form .form-btn {
+    position: absolute;
+    left: 93%;
+}
+.text-task {
+    max-width: 370px;
+    color: #202020;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1px 0 0 12px;
+}
+.input-radio {
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    align-self: center;
+}
+.add-btn-icon {
+    width: 21px;
+    height: 21x;
+}
+.close-btn-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.completed {
+    background-color: #e1e1e1;
+    color: #ca1f1f;
+    text-decoration: line-through;
+}

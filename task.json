@@ -1,0 +1,27 @@
+[
+    {
+        "text": "Устроить бунт",
+        "priority": "low",
+        "status": "todo"
+    },
+    {
+        "text": "Выпить воды в 14:00",
+        "priority": "low",
+        "status": "todo"
+    },
+    {
+        "text": "Почитать доку",
+        "priority": "high",
+        "status": "todo"
+    },
+    {
+        "text": "Выпить таблетки от шизы",
+        "priority": "high",
+        "status": "todo"
+    },
+    {
+        "text": "Поправить верстку",
+        "priority": "high",
+        "status": "todo"
+    }
+  ]
